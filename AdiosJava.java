@@ -16,9 +16,38 @@ public class AdiosJava {
 
         int resta = restar(numero1, numero2);
         System.out.println("La resta de " + numero1 + " y " + numero2 + " es: " + resta);
-    
+        scanner.close();
     }
+    //Metodo para restar dos números
     public static int restar(int num1, int num2) {
         return num1 - num2;
- }
+    }
+}
+
+class Persona {
+    private String nombre;
+    private int edad;
+
+    // Constructor
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // Métodos Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 }
