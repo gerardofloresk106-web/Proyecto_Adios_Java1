@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class AdiosJava {
+    public static int multiplicar(int num1, int num2) {
+        return num1 * num2;
+    }
     public static void main(String[] args) {
        
         //System.out.println("Adios, Java!");
