@@ -4,6 +4,15 @@ public class AdiosJava {
     public static int multiplicar(int num1, int num2) {
         return num1 * num2;
     }
+
+    public static int dividir(int num1, int num2) {
+        if (num2 != 0) {
+            return num1 / num2;
+        } else {
+            System.out.println("Error: No se puede dividir por cero.");
+            return 0; // Retorna 0 o podrías lanzar una excepción
+        }
+    }
     public static void main(String[] args) {
        
         //System.out.println("Adios, Java!");
